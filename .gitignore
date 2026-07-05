@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+
+venv/
+.venv/
+
+.vector_cache/
+
+*.log
+
+# HuggingFace cache
+.cache/
+
+# Streamlit cache
+.streamlit/
+
+# Large vector files if too large
+vector_db/*.faiss
+vector_db/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
